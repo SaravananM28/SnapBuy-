@@ -10,10 +10,10 @@ export default function ProductDetails({cartItems, setcardItems}){
             fetch(process.env.REACT_APP_API_URL+'/products/'+id)
             .then((res)=> res.json())
             .then(res => setproduct(res.product))
-        },[])
+        },[id])
 
     function addToCard(){
-        const itemExist = cartItems.find((item)=>item.product._id == product._id);
+        const itemExist = cartItems.find((item)=>item.product._id === product._id);
         if(!itemExist){
             const newItem = {product , qty}
             setcardItems((state)=>[...state,newItem]);
@@ -21,13 +21,13 @@ export default function ProductDetails({cartItems, setcardItems}){
         }
     }
     function increaseQty(){
-        if(product.stock == qty){
+        if(product.stock === qty){
             return;
         }setQty((state)=>state+1);
     }
 
     function decreaseQty(){
-        if(qty == 1){
+        if(qty === 1){
             return;
         }setQty((state)=>state-1);
     }
@@ -60,7 +60,7 @@ return product && <div className="container container-fluid">
 
                     <span className="btn btn-primary plus" onClick={increaseQty}>+</span>
                 </div>
-                 <button type="button" onClick={addToCard} id="cart_btn" disabled={product.stock == 0} className="btn btn-primary d-inline ml-4">Add to Cart</button>
+                 <button type="button" onClick={addToCard} id="cart_btn" disabled={product.stock === 0} className="btn btn-primary d-inline ml-4">Add to Cart</button>
 
                 <hr />
 
