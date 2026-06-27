@@ -1,4 +1,3 @@
-import Cart from "../pages/Cart";
 import Search from "./search";
 import { Link } from "react-router-dom";
 
