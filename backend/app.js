@@ -18,7 +18,9 @@ app.use('/api/v1',orders);
 
 
 
+const PORT = process.env.PORT || 5000;
 
-app.listen(process.env.PORT,()=>{
-    console.log(`server is listening to port number ${process.env.PORT} in ${process.env.NODE_ENV}`)
-})
+
+app.listen(PORT, () => {
+   console.log(`Server started on ${PORT}`);
+});
