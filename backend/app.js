@@ -1,0 +1,24 @@
+const express = require('express');
+const path = require('path');
+const products = require('./routes/product');
+const orders = require('./routes/order');
+const dotenv = require('dotenv');
+const connectDB = require('./config/connectDB');
+const { json } = require('stream/consumers');
+const cors = require('cors')
+dotenv.config({path: path.join(__dirname,'config','config.env')});
+const app = express();
+connectDB();
+
+app.use(express.json())
+app.use(cors())
+app.use('/api/v1/',products);
+app.use('/api/v1',orders);
+
+
+
+
+
+app.listen(process.env.PORT,()=>{
+    console.log(`server is listening to port number ${process.env.PORT} in ${process.env.NODE_ENV}`)
+})

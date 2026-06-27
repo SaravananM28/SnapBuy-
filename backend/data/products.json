@@ -1,0 +1,156 @@
+[
+    {
+        "name":"Campus Men's Maxico Running Shoes",
+        "price":10.12,
+        "description":"The high rasied back cover with extra padding",
+        "rating":3,
+        "Images":[
+            {
+                "image":"/images/products/S.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Ebay",
+        "stock":6
+    },
+    {
+        "name":"Nike Air Max 270 Sneakers",
+        "price":89.99,
+        "description":"Premium air cushion technology with breathable mesh upper",
+        "rating":5,
+        "Images":[
+            {
+                "image":"/images/products/nike_air_max.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Amazon",
+        "stock":15
+    },
+    {
+        "name":"Adidas Ultraboost Running Shoes",
+        "price":125.50,
+        "description":"Responsive Boost cushioning for maximum comfort and performance",
+        "rating":4,
+        "Images":[
+            {
+                "image":"/images/products/adidas_ultraboost.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Flipkart",
+        "stock":8
+    },
+    {
+        "name":"Puma RS-X Retro Sneakers",
+        "price":75.00,
+        "description":"Retro inspired design with modern comfort technology",
+        "rating":4,
+        "Images":[
+            {
+                "image":"/images/products/puma_rsx.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Ebay",
+        "stock":12
+    },
+    {
+        "name":"New Balance 574 Classic",
+        "price":82.99,
+        "description":"Classic vintage style with cushioned midsole for all-day comfort",
+        "rating":3,
+        "Images":[
+            {
+                "image":"/images/products/newbalance_574.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Amazon",
+        "stock":10
+    },
+    {
+        "name":"Skechers Go Walk 5 Loafers",
+        "price":65.00,
+        "description":"Slip-on loafers with memory foam insole for ultimate comfort",
+        "rating":5,
+        "Images":[
+            {
+                "image":"/images/products/skechers_gowalk.jpg"
+            }
+        ],
+        "catagory":"Casual",
+        "seller":"Flipkart",
+        "stock":20
+    },
+    {
+        "name":"Reebok Classic Leather Legacy",
+        "price":72.50,
+        "description":"Timeless design with cushioned sole and durable leather upper",
+        "rating":4,
+        "Images":[
+            {
+                "image":"/images/products/reebok_classic.jpg"
+            }
+        ],
+        "catagory":"Casual",
+        "seller":"Ebay",
+        "stock":14
+    },
+    {
+        "name":"Converse Chuck Taylor All Star",
+        "price":45.99,
+        "description":"Iconic canvas high-top with rubber sole perfect for any style",
+        "rating":5,
+        "Images":[
+            {
+                "image":"/images/products/converse_chuck.jpg"
+            }
+        ],
+        "catagory":"Casual",
+        "seller":"Amazon",
+        "stock":25
+    },
+    {
+        "name":"Vans Old Skool Platform",
+        "price":58.00,
+        "description":"Classic side stripe design with elevated platform sole",
+        "rating":4,
+        "Images":[
+            {
+                "image":"/images/products/vans_oldskool.jpg"
+            }
+        ],
+        "catagory":"Casual",
+        "seller":"Flipkart",
+        "stock":18
+    },
+    {
+        "name":"ASICS Gel-Quantum 360 Sports",
+        "price":95.75,
+        "description":"Advanced gel cushioning system for maximum shock absorption",
+        "rating":5,
+        "Images":[
+            {
+                "image":"/images/products/asics_gel.jpg"
+            }
+        ],
+        "catagory":"Sports",
+        "seller":"Amazon",
+        "stock":9
+    },
+    {
+        "name":"Clarks Desert Boot Casual",
+        "price":110.00,
+        "description":"Premium leather construction with crepe rubber sole for elegance",
+        "rating":4,
+        "Images":[
+            {
+                "image":"/images/products/clarks_desert.jpg"
+            }
+        ],
+        "catagory":"Formal",
+        "seller":"Ebay",
+        "stock":7
+    }
+]
