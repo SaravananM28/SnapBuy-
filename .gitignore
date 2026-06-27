@@ -55,3 +55,4 @@ desktop.ini
 
 # Optional: keep an example config in repo and add guidance in README
 # e.g. commit config/config.env.example with placeholder values
+templates/
