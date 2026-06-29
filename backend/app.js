@@ -11,7 +11,12 @@ const app = express();
 connectDB();
 
 app.use(express.json())
-app.use(cors())
+app.use(
+  cors({
+    origin: "https://snap-buy-rho.vercel.app",
+    credentials: true
+  })
+);
 app.use('/api/v1/',products);
 app.use('/api/v1',orders);
 
